@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    background-color: #F2EAE2;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    height: 450px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#desktop-image {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#mobile-image {
+    display: none;
+}
+
+h4 {
+    position: absolute;
+    height: 15px;
+    left: 55.25%;
+    right: 29.42%;
+    top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+}
+
+#second-text {
+    position: absolute;
+    height: 96px;
+    left: 55.33%;
+    right: 5.33%;
+    top: 11%;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+}
+
+p {
+    position: absolute;
+    height: 92px;
+    left: 55.25%;
+    right: 5.25%;
+    top: 39%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+#fourth-text {
+    /*Arreglar los fonts*/
+    position: absolute;
+    top: 64%;
+    left: 55.0%;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h5 {
+    position: absolute;
+    top: 65%;
+    left: 80.0%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6C7289;
+    text-decoration-line: line-through;
+
+}
+
+button {
+    background: #3D8168;
+    border-style: none;
+    border-radius: 8px;
+    width: 236px;
+    height: 48px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    position: absolute;
+    top: 82%;
+    left: 55%;
+}
+
+button:hover {
+    background: #1A4032;
+    cursor: pointer;
+}
+
+svg {
+    size: 16px;
+    position: absolute;
+    left: 25%;
+}
+
+@media (max-width: 700px) {
+    body {
+        margin: 0;
+        background-color: #F2EAE2;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        height: 611px;
+        width: 375px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    #desktop-image {
+        display: none;
+    }
+
+    #mobile-image {
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;;
+    }
+
+    h4 {
+        position: absolute;
+        top: 44%;
+        left: 7%;
+    }
+
+    #second-text {
+        position: absolute;
+        top: 47%;
+        left: 6.8%; 
+    }
+
+    p {
+        position: absolute;
+        top: 62%;
+        left: 7%;   
+    }
+
+    #fourth-text {
+        position: absolute;
+        top: 76%;
+        left: 7%;
+    }
+
+    h5 {
+        position: absolute;
+        top: 77%;
+        left: 47%; 
+    }
+
+    button {
+        position: absolute;
+        top: 89%;
+        left: 10%;
+        width: 80%;
+    }
+
+}
