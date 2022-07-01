@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Llive site URL](https://themax370.github.io/Product-preview-card-component/)
+- Solution URL: [solution URL]([(https://www.frontendmentor.io/solutions/flexbox-PjHQxzhuuU))
+- Live Site URL: [live site URL](https://themax370.github.io/Product-preview-card-component/)
 
 ### Built with
 
